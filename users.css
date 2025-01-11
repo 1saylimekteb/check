@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+}
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: lightslategrey;
+    height: 60px;
+}
+.header-line{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 15px;
+    font-style: italic;
+    font-weight: 600;
+}
+main{
+    width: 100%;
+}
+.main-container{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(15, 29, 43);
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.users{
+    width: 320px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+}
+.user{
+    background-color: lightgrey;
+    /* width: 300px; */
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.name{
+    text-align: center;
+    color: darkgrey;
+    font-style: italic;
+}
+.age , .level , .chrc{
+    color: rgb(78, 34, 17);
+    background-color: rgba(119, 136, 153, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    text-align: center;
+    width: 260px;
+    margin-bottom: 10px;
+}

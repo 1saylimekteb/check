@@ -1,0 +1,49 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: lightslategrey;
+    height: 60px;
+}
+.header-line{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 15px;
+    font-style: italic;
+    font-weight: 600;
+}
+.main-container{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(15, 29, 43);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 50px;
+    color: lightslategray;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkgreen;;
+}
+a{
+    text-decoration: none;
+    width: 100px;
+    height: 80px;
+    color: white;
+    font-weight: 800;
+}
